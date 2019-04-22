@@ -1,0 +1,35 @@
+.navbar{
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: auto;
+        width: 100%;
+        background-color: #333;
+}
+.navbar-left {
+    width: 60%;
+    height: inherit;
+    float: left;
+}
+.navbar-right {
+    height: inherit; 
+    float: right;
+}
+.navbar ul{
+    list-style-type: none;
+    margin: 0;
+}
+.navbar a{
+        text-decoration: none;
+        color: white;
+        display: inline-block;
+        padding-left: 10px;
+        padding-right: 10px;
+    padding: 14px 16px;
+    height: inherit;
+}
+.navbar a:hover {
+        background-color: #2d9ad2;
+}
